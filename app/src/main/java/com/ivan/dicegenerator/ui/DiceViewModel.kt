@@ -31,6 +31,7 @@ class DiceViewModel @Inject constructor() : ViewModel() {
             getDie(),
             getDie()
         )
+        _gameStarted.value = true
     }
 
     // Evaluate the results of a dice roll

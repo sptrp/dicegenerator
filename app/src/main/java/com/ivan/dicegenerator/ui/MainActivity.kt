@@ -66,7 +66,8 @@ class MainActivity : AppCompatActivity() {
                 pointer++
             }
         }
-        headline.text = diceViewModel.evaluateDice(this, dice)
+        if (diceViewModel.gameStarted.value == true)
+            headline.text = diceViewModel.evaluateDice(this, dice)
     }
 
     private fun observeGameStatus() {
