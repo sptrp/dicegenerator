@@ -7,9 +7,8 @@ import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.iterator
-import com.example.dicegenerator.R
-import com.example.dicegenerator.databinding.ActivityMainBinding
 import com.ivan.dicegenerator.ui.DiceViewModel
+import com.ivan.dicegenerator.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -25,7 +24,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mainBinding = ActivityMainBinding.inflate(layoutInflater)
-        //binding.viewmodel = diceViewModel
         mainBinding.lifecycleOwner = this
         setContentView(mainBinding.root)
 
