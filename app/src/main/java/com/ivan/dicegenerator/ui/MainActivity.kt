@@ -1,4 +1,4 @@
-package com.ivan.dicegenerator
+package com.ivan.dicegenerator.ui
 
 import android.os.Bundle
 import android.view.View
@@ -7,7 +7,8 @@ import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.iterator
-import com.ivan.dicegenerator.ui.DiceViewModel
+import com.ivan.dicegenerator.MyLiveCycleObserver
+import com.ivan.dicegenerator.R
 import com.ivan.dicegenerator.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
