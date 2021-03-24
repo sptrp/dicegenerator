@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Roll the Dice</string>
+    <string name="app_name">Dice Generator</string>
     <string name="action_settings">Settings</string>
     <string name="roll_em">Roll \'em!</string>
     <string name="no_dice">No dice</string>

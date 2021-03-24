@@ -3,6 +3,8 @@
     <dimen name="container_padding">16dp</dimen>
     <dimen name="die_dimen">80dp</dimen>
     <dimen name="dice_vertical_margin">48dp</dimen>
+    <dimen name="dice_vertical_margin_land">40dp</dimen>
     <dimen name="headline_margin">48dp</dimen>
+    <dimen name="headline_margin_land">40dp</dimen>
     <dimen name="headline_text_size">36sp</dimen>
 </resources>
